@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>contact form</title>
+</head>
+
+<body>
+  <table cellspacing="40">
+    <tr>
+      <td><a href="index.html">HOME</a></td>
+      <td><a href="#education">EDUCATION</a></td>
+      <td><a href="#skills">SKILLS</a></td>
+      <td><a href="contactForm.html">CONTACT</a></td>
+      <td><a href="studyMaterial.html">STUDY MATERIAL</a></td>
+    </tr>
+  </table>
+  <marquee>
+    PA-41 Prasannadatta Kawadkar
+  </marquee>
+  <hr>
+  <div class="form" align="center">
+    <h2>FILL THE FORM TO REACH ME!</h2>
+    <!-- mailto not woring yet -->
+    <form action=<a href="mailto:pdpk1012@gmail.com" method="post">
+      <table cellspacing="20" style="border:1px solid red">
+        <tr>
+          <td><label><strong>Name: </strong></label></td>
+          <td><input type="text" name="Name" placeholder="Enter your name."></td>
+        </tr>
+        <tr>
+          <td><label><strong>Email: </strong></label></td>
+          <td><input type="email" name="Email" placeholder="Enter your email id."></td>
+        </tr>
+        <tr>
+          <td>
+            <label><strong>Select your favourite colour: </strong></label>
+          </td>
+          <td>
+            <input type="color" name="colour">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label><strong>Do I know you?</strong></label>
+              </td>
+              <td>
+                <input type="radio" name="radio" value="Yes"><label>Yes </label>
+                <input type="radio" name="radio" value="No" checked><label>No </label>
+              </td>
+        </tr>
+        <tr>
+          <td><label><strong>Message: </strong></label></td>
+          <td><textarea name="message" rows="5" cols="30" placeholder="Enter your message here."></textarea></td>
+        </tr>
+      </table>
+<br>
+      <input type="checkbox">
+      <label><strong>Check if you wish get notified about exciting contents in future.</strong></label>
+    <br>  <br>
+      <input type="submit" name="Send" value="Send">
+    </form>
+  </div>
+  <br>
+  <hr>
+
+</body>
+
+</html>
